@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-forest: #123326;
+    --color-agri-green: #349b74;
+    --color-clay: #d97736;
+    --color-cream: #fdfcf9;
+  }
+
+  body {
+    background-color: #fbf9f4;
+    color: #1e293b;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede0;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2d8cc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #349b74;
+}
+
+/* Glassmorphism & UI helpers */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-dark {
+  background: rgba(14, 38, 29, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(52, 155, 116, 0.2);
+}
+
+.agricultural-gradient-bg {
+  background: radial-gradient(circle at 10% 20%, rgba(225, 245, 235, 0.8) 0%, rgba(253, 252, 249, 0.95) 90%);
+}
+
+.dark-agricultural-bg {
+  background: radial-gradient(circle at 80% 20%, #164233 0%, #0c221a 50%, #07150f 100%);
+}
+
+.leaf-pattern {
+  background-image: radial-gradient(#349b74 0.75px, transparent 0.75px), radial-gradient(#349b74 0.75px, #fbf9f4 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  opacity: 0.04;
+}
+
+/* Shimmer animation for loading states */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
