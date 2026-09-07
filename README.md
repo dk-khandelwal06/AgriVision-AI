@@ -24,8 +24,8 @@
 
 <br>
 
-> *🌐 Live Website: `[ADD VERCEL URL HERE]`*  
-> *💻 GitHub Repository: `[ADD GITHUB REPOSITORY URL HERE]`*
+> *🌐 Live Website: `https://agrivision-ai-gold.vercel.app/`*  
+> *💻 GitHub Repository: `https://github.com/dk-khandelwal06/AgriVision-AI`*
 
 </div>
 
@@ -587,7 +587,7 @@ $$\text{Farmers Reached} \longrightarrow \text{Recommendations Followed} \longri
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/dk-khandelwal06/agrivision-ai.git
+git clone https://github.com/dk-khandelwal06/AgriVision-AI.git
 
 # 2. Navigate to the project root
 cd agrivision-ai
