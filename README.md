@@ -17,15 +17,15 @@
 
 <br>
 
-[🌐 **Live Website**](https://vercel.com) &nbsp;•&nbsp;
+[🌐 **Live Website**](https://agrivision-ai-gold.vercel.app/) &nbsp;•&nbsp;
 [💻 **GitHub Repository**](https://github.com/dk-khandelwal06/agrivision-ai) &nbsp;•&nbsp;
 [📊 **Pitch Deck**](#-pitch-deck) &nbsp;•&nbsp;
 [🚀 **Explore Demo**](#-demo-experience)
 
 <br>
 
-> *🌐 Live Website: `https://agrivision-ai-gold.vercel.app/`*  
-> *💻 GitHub Repository: `https://github.com/dk-khandelwal06/AgriVision-AI`*
+> *🌐 Live Website: https://agrivision-ai-gold.vercel.app/*  
+> *💻 GitHub Repository: https://github.com/dk-khandelwal06/AgriVision-AI*
 
 </div>
 
